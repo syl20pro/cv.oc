@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Premier test pour apprendre npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syl20pro/cv.oc.git"
+  },
+  "keywords": [
+    "resume",
+    "cv"
+  ],
+  "author": "sylvain gemieux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syl20pro/cv.oc/issues"
+  },
+  "homepage": "https://github.com/syl20pro/cv.oc#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "foundation-sites": "^6.6.1"
+  }
+}

@@ -7,7 +7,7 @@
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
           <meta name="description"
-            content="Découvrez le CV de Sylvain Gemieux, chef de projet numérique et développeur web sur le site dédié à ses activités en tant que salarié.">
+            content="Découvrez le CV de Sylvain Gemieux, chef de projet digital et développeur web sur le site dédié à ses activités en tant que salarié.">
           <meta name="author" content="Sylvain Gemieux">
           <meta name="keywords"
             content="CV, curriculum vitae, expériences professionnelles, Formations, Certifications, Sylvain Gemieux, Développeur fullstack, Développeur web, chef de projet" />
@@ -15,7 +15,8 @@
 
       <!-- Custom fonts & styles -->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+      <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  rel="stylesheet"  media="screen,projection"/>
 
       <!-- Let browser know website is optimized for mobile -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -24,22 +25,18 @@
     </head>
 
     <body>
-      <div>
-      <!-- Menu -->
-        <nav>
+      <div class=row>
 
-        </nav>
         <header>
-          <div>
-
-          </div>
+          <h1><span>Sylvain</span> Gemieux<br>Développeur web</h1>
         </header>
 
-        <div>
-          <aside>
+        <div class="col s4">
+          <aside class="card-panel amber lighten-1">
+            
             <!--Section contact-->
             <section>
-              <p>contact</p>
+              <h2>contacts</h2>
               <ul>
                 <li>Adresse :<br>14, rue de dunkerque 75010 Paris</li>
                 <li>Téléphone :<br>+33 6 23 83 89 79</li>
@@ -51,10 +48,8 @@
                       
             <!--Section a propos de moi-->
             <section>
-              <p>à propos de moi</p>
-                <p>Je suis Sylvain, chef de projet et dévelopeur informatique. Actuellement, je suis en formation avec OpenClassrooms
-                jusqu'en juillet 2020. J'ai démarré cette reconversion professionnelle fin 2018 après plus de 10 ans de carrière dans
-                l'immobilier social et diverses expériences dans le commerce et l'administration publique.
+              <h2>à propos de moi</h2>
+                <p class="">Je suis Sylvain dévelopeur informatique freelance depuis 2018. Actuellement, je suis une formation de développeur web avec OpenClassrooms jusqu'en juillet 2020. J'ai démarré cette reconversion professionnelle fin 2018 après plus de 10 ans de carrière dans l'immobilier social et diverses expériences dans le commerce et l'administration publique.
                 Actuellement, je recherche un poste de chef de projet ou développeur web.</p>
             </section>
                       
@@ -62,18 +57,19 @@
             <section>
               <h2>Loisirs</h2>
                 <ul>
-                  <li>Loisirs 1</li>
-                  <li>Loisirs 2</li>
-                  <li>Loisirs 3</li>
+                  <li class="fas fa-book-reader fa-5x"> </li>
+                  <li class="fas fa-biking fa-5x"> </li>
+                  <li class="fas fa-gamepad fa-5x"> </li>
+                  <li class="fas fa-film fa-5x"> </li>
                 </ul>
             </section>
           </aside>
         </div>
 
-        <div>
-          <!--Section Formation-->
+        
+          <!--Section Formations-->
           <section>
-            <h2>Formation</h2>
+            <h2>Formations</h2>
             <ul>
               <li>Formation 1 </li>
               <li>Formation 2 </li>
@@ -82,7 +78,7 @@
 
           <!--Section Expériences professionnelles-->
           <section>
-            <h2>expériences professionnelles</h2>
+            <h2>Expériences professionnelles</h2>
             <ul>
               <li>Formation 1 </li>
               <li>Formation 2 </li>
@@ -101,9 +97,11 @@
         <footer>
         
         </footer>
+        </div>
       </div>
+
       <!-- Javascript -->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       
     </body>
   </html>
