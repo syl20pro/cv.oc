@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/syl20pro/cv.oc#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.0",
-    "foundation-sites": "^6.6.1"
+    "@fortawesome/fontawesome-free": "^5.12.0"
   }
 }
