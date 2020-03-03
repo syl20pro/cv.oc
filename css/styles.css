@@ -11,7 +11,7 @@ Auteur : sylvain gemieux alias syl20pro */
 
 /* General */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap');
 
 *{
     box-sizing: border-box;
@@ -21,7 +21,7 @@ Auteur : sylvain gemieux alias syl20pro */
 
 #bloc-page {
   width: auto;
-  height:1080px;
+  height: 1080px;
   background-color: #000;
 }
 
@@ -49,18 +49,96 @@ p{
 }
 
 .bold {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .main-content{
     background-color: #ffffff;
 }
 
+.items-yellow {
+    color: var(--first-color);
+}
+
 /* Header */
+
+header {
+    background-color: #ffffff;
+}
+
+.title h1, h2 {
+    margin: 0 15px;
+}
+
+.name {
+    color: var(--first-color);
+    font-weight: 500;
+}
+
+.surname {
+    font-weight: lighter;
+}
+
+.name-underline {
+    text-decoration: underline var(--first-color);
+}
+.photo-profil {
+    padding: 40px;
+}
+
+.photo-profil img{
+    width: 150px;
+    display: block;
+    border: 2px solid var(--first-color);
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* A propos */
 
+.aside-infos {
+    background-color: var(--first-color);
+    text-align: justify;
+}
+
+.aside-infos h2 {
+    text-align: center;
+    color: var(--first-color);
+    background-color: var(--second-color);
+    margin: 10px 0px;
+    padding: 6px 0;
+}
+
+.aside-infos ul li {
+    margin: 15px;
+}
+
+.icons-hobbies {
+    align-content: center;
+}
+
 /* Formations / Expériences */
+
+.main-content h2 {
+    border-bottom: 1px solid var(--first-color);
+    margin: 0 20px;
+    color: black;
+    margin: 0 20px;
+}
+
+.main-content h2 i {
+    margin-right: 25px;
+}
+
+.main-content i {
+    color: var(--first-color);
+}
+
+.main-content .fa-dot-circle,
+.main-content .fa-circle {
+    font-size: 10px;
+}
 
 /* Recommandations */
 
