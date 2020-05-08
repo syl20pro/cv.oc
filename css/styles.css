@@ -6,7 +6,6 @@
     5. Recommandations
     6. Loisirs
     7. Responsive
-
 Auteur : sylvain gemieux alias syl20pro */
 
 /* General */
@@ -14,16 +13,17 @@ Auteur : sylvain gemieux alias syl20pro */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap');
 
 *{
-    display: ;
     box-sizing: border-box;
     --first-color: #FF5722;
     --second-color: #404040;
+    --background-color: #212121;
+    --main-color: #FAFAFA;
 }
 
 #bloc-page {
   width: auto;
   height: 1080px;
-  background-color: #000;
+  background-color: var(--background-color);
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     margin: 0 auto;
     padding: 0;
     max-width: 900px;
-    color: #000000;
+    color: var(--background-color);
 }
 
 .container {
@@ -46,15 +46,15 @@ body {
 p{
     font-size: 15px;
     margin: 8px 0;
-    color: #000000;
+    color: var(--background-color);
 }
 
-.bold {
-    font-weight: 400;
+.bold-text {
+    font-weight: 500;
 }
 
 .main-content{
-    background-color: #ffffff;
+    background-color: var(--main-color);
 }
 
 .items-yellow {
@@ -64,7 +64,7 @@ p{
 /* Header */
 
 header {
-    background-color: #ffffff;
+    background-color: var(--main-color);
 }
 
 .title h1, h2 {
@@ -96,14 +96,21 @@ header {
     margin-left: auto;
 }
 
+.main-content h2 {
+    border-bottom: 1px solid var(--first-color);
+    margin: 0 20px;
+    color: var(--background-color);
+    margin: 0 20px;
+}
+
 /* A propos */
 
-.section-infos {
+.aside-infos {
     background-color: var(--first-color);
     text-align: justify;
 }
 
-.section-infos h2 {
+.aside-infos h2 {
     text-align: center;
     color: var(--first-color);
     background-color: var(--second-color);
@@ -111,7 +118,7 @@ header {
     padding: 6px 0;
 }
 
-.section-infos ul li {
+.aside-infos ul li {
     margin: 15px;
 }
 
@@ -121,11 +128,9 @@ header {
 
 /* Formations / Expériences */
 
-.main-content h2 {
-    border-bottom: 1px solid var(--first-color);
-    margin: 0 20px;
-    color: black;
-    margin: 0 20px;
+.main-content h3 {
+    font-size: 800;    
+    font-weight: lighter;
 }
 
 .main-content h2 i {
@@ -136,15 +141,52 @@ header {
     color: var(--first-color);
 }
 
+.main-content p i {
+    width: 12px;
+    margin-right: 10px;
+}
+
 .main-content .fa-dot-circle,
 .main-content .fa-circle {
     font-size: 10px;
 }
 
+.main-content .date-city {
+    margin-left: 28px;
+}
+
+.main-content ul li h3 {
+    list-style-type: none;
+}
+
+.resume-description {
+    width: 70%;
+}
+
 /* Recommandations */
+
+.recom-desc {
+    padding-bottom: 20px;
+}
+
+.recom-desc i {
+    color: var(--first-color);
+    margin-right: 25px;
+}
 
 /* Loisirs */
 
+.icons-hobbies .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons-hobbies i {
+    color: var(--second-color);
+    border: 5px solid var(--second-color);
+    border-radius: 50%;
+    padding: 10px;
+}
 /* Responsive */
 
 
