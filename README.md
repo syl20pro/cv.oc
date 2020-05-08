@@ -2,12 +2,6 @@
 
 Projet réalisé dans le cadre de la formation “développeur web” d’OpenClassrooms.
 
-## Intégration d'une maquette
-
-![](https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png)
-
-Intégration d’une maquette de CV en HTML et CSS : https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png
-
 ## Compétences visées
 
 - [ ] Préparer des éléments graphiques et textuels à intégrer à une page web
@@ -20,3 +14,9 @@ Intégration d’une maquette de CV en HTML et CSS : https://user.oc-static.com/
 ## Livrables
 
 Résultat visible via https://syl20pro.github.io/cv.oc
+
+## Intégration d'une maquette
+
+![Maquette Originale](https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png)
+
+Intégration d’une maquette de CV en HTML et CSS : https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png

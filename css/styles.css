@@ -16,7 +16,7 @@ Auteur : sylvain gemieux alias syl20pro */
     box-sizing: border-box;
     --first-color: #FF5722;
     --second-color: #404040;
-    --background-color: #212121;
+    --background-color: #0D47A1;
     --main-color: #FAFAFA;
 }
 
@@ -105,12 +105,12 @@ header {
 
 /* A propos */
 
-.aside-infos {
+.section-infos {
     background-color: var(--first-color);
     text-align: justify;
 }
 
-.aside-infos h2 {
+.section-infos h2 {
     text-align: center;
     color: var(--first-color);
     background-color: var(--second-color);
@@ -118,7 +118,7 @@ header {
     padding: 6px 0;
 }
 
-.aside-infos ul li {
+.section-infos ul li {
     margin: 15px;
 }
 
