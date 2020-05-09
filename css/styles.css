@@ -12,7 +12,7 @@ Auteur : sylvain gemieux alias syl20pro */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     --first-color: #FF5722;
     --second-color: #404040;
@@ -40,7 +40,7 @@ body {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 p{
@@ -106,6 +106,9 @@ header {
 /* A propos */
 
 .section-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: var(--first-color);
     text-align: justify;
 }
@@ -121,15 +124,19 @@ header {
 .section-infos ul li {
     margin: 15px;
 }
-
+.about-content {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .icons-hobbies {
-    align-content: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Formations / Expériences */
 
 .main-content h3 {
-    font-size: 800;    
+    font-size: 2em;    
     font-weight: lighter;
 }
 
@@ -164,6 +171,12 @@ header {
 }
 
 /* Recommandations */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 .recom-desc {
     padding-bottom: 20px;
