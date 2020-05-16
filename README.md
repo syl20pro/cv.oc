@@ -15,8 +15,10 @@ Projet réalisé dans le cadre de la formation “développeur web” d’OpenCl
 
 Résultat visible via https://syl20pro.github.io/cv.oc
 
+![W3C CSS validator](http://jigsaw.w3.org/css-validator/images/vcss)
+
 ## Intégration d'une maquette
 
 ![Maquette Originale](https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png)
 
-Intégration d’une maquette de CV en HTML et CSS : https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png
+Maquette originale : https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png
