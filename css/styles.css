@@ -67,6 +67,16 @@ p{
     color: #2196F3;
 }
 
+.mini-text {
+    font-size: small;
+    font-weight: 400;
+}
+
+.mini-text-strong {
+    font-size: small;
+    font-weight: 500;
+}
+
 /* Header */
 
 header {
@@ -152,7 +162,6 @@ header {
 .main-content h3 {
     font-size: 2em;    
     font-weight: lighter;
-    list-style-type: none;
 }
 
 .main-content h2 i {
