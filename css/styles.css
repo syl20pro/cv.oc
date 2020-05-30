@@ -37,7 +37,6 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    padding: 40px;
     margin-right: 20px;
 }
 
@@ -81,6 +80,7 @@ p{
 
 header {
     background-color: #ECEFF1;
+    display: flex;
 }
 
 .name {
@@ -97,13 +97,15 @@ header {
 }
 .photo-profil {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 40px;
 }
 
 .photo-profil img {
-    width: 150px;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 150px;
     border: 2px solid #2196F3;
     border-radius: 50%;
     margin-right: auto;
@@ -111,6 +113,11 @@ header {
 }
 
 .main-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
     display: flex;
     flex-direction: row;
 }
@@ -230,7 +237,7 @@ header {
     color: #FFB300;
     border: 3px solid #FFB300;
     border-radius: 50%;
-    padding: 20px 16px;
+    padding: 20px 18px;
 }
 /* Responsive */
 
