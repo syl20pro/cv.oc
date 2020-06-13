@@ -11,11 +11,11 @@
       <meta name="robots" content="all" />
       <link rel='icon' href='img/favicon-16x16.png' type='image/x-icon' />
 
-      <!-- Custom fonts & styles -->
+      <!-- Custom fonts & main style -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
       <link type="text/css" href="css/styles.css" rel="stylesheet" />
 
-      <!-- Responsive -->
+<!--------------------------Responsive styles-------------------------->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
@@ -23,7 +23,7 @@
     <!-- Header -->
     <header class="header-content">
       <div class="photo-profil">
-        <img src="img/profile.jpg" alt="photo de sylvain gemieux">
+        <figure> <img src="img/profile.jpg" alt="photo de sylvain gemieux"> </figure>
       </div>
       <div class="main-title">
         <h1><span class="name">SYLVAIN</span> <span class="surname">GEMIEUX</span></h1>
@@ -33,9 +33,11 @@
 
     <div class="container">
       <div class="row">
+<!--------------------------informations personnelles côté ou au-dessus-------------------------->
         <div class="section-infos">
-          <!--Section contact-->
-          <section class="titre-section">
+<!---------------------------section contact--------------------------->
+          <section class="titre-section infos-compact">
+            <div>
             <h2>CONTACTS</h2>
               <ul class="mini-text">
                 <li>Adresse :<br>14, rue de dunkerque 75010 Paris</li>
@@ -44,22 +46,27 @@
                 <li>Site web :<br><a href="https://sylvaingemieux.com" target="blank">sylvaingemieux.com</a> </li>
                 <li>Réseaux sociaux :<br>@syl20pro</li>
               </ul>
+            </div>
           </section>
-          <!--Section a propos de moi-->
-           <section class="titre-section">
+<!---------------------------section a propos de moi--------------------------->
+           <section class="titre-section infos-compact">
+            <div>
             <h2>A PROPOS DE MOI</h2>
               <p class="about-content mini-text">Hello, je suis Sylvain, chef de projet agile/ Consultant Digital freelance.<br>
               Je suis en formation de développement web avec OpenClassrooms après une carrière de plus de 10 ans en gestion de patrimoine immobilier social.<br>
               </p>
+            </div>
           </section>
-          <!--Section loisirs-->
-          <section class="titre-section">
+<!---------------------------section loisirs--------------------------->
+          <section class="titre-section infos-compact">
+            <div>
             <h2>LOISIRS</h2>
               <ul class="icons-hobbies">
                 <li class="icons-hobbies-1 fas fa-book fa-2x"> </li>
                 <li class="icons-hobbies-2 fas fa-biking fa-2x"> </li>
                 <li class="icons-hobbies-3 fas fa-gamepad fa-2x"> </li>
               </ul>
+            </div>
           </section>
         </div>
       </div>
@@ -67,35 +74,36 @@
 
       <div class="row">
         <div class="main-content">
-          <!--Section Formations-->
+<!------------------------------------informations principales------------------------------------>
+<!---------------------------section formations--------------------------->
           <section class="resume-content">
           <h2><span class="fas fa-graduation-cap items-yellow"></span> FORMATIONS</h2>
-          <!--Formation 1-->
+<!---------------------------formations 1--------------------------->
           <div class="flex-reco">
             <div class="date-city">
-              <p><span class="far fa-dot-circle items-yellow"> </span>janv - Juil 2020 Paris</p>
+              <p><span class="far fa-dot-circle items-yellow"> </span>janv - Juil 2020<br> Paris</p>
             </div>
             <div>
-            <h3>OPENCLASSROOMS</h3>
-            <span class="resume-description">Développeur web</span>
-            <span>Développement structuré de site et applications web et Optimisation du référencement.</span>
+            <p class="school-title">OPENCLASSROOMS</p>
+            <i class="resume-description">Développeur web</i>
+            <p>Développement structuré de site et applications web et Optimisation du référencement.</p>
             </div>
           </div>
-          <!--Formation 2-->
+<!---------------------------formations 2--------------------------->
           <div class="flex-reco">
           <div class="date-city">
-            <p><span class="fas fa-circle items-yellow"> </span>2015 - 2017 Paris</p>
+            <p><span class="fas fa-circle items-yellow"> </span>2015 - 2017<br> Paris</p>
           </div>
-              <h3>SUP'TERTIAIRE</h3>
+              <p class="school-title">SUP'TERTIAIRE</p>
               <i class="resume-description">Manager de l'habitat social et durable</i>
-              <p>Formation globale sur la gestion du patrimoine social, financière, technique et l' encadrement pluridisciplinaire
-                d'équipe de proximité et administrative.</p>
+              <p>Formation globale sur la gestion du patrimoine social, financière, technique et l' encadrement pluridisciplinaire d'équipe de proximité et administrative.</p>
           </div>
           </section>
 
-          <!--Section Expériences professionnelles-->
+<!---------------------------section Expériences professionnelles--------------------------->
           <section>
             <h2><span class="fas fa-briefcase items-yellow"></span> EXPERIENCES PROFESSIONELLES</h2>
+<!---------------------------Expériences professionnelles 1--------------------------->
             <div class="resume-content">
               <div class="resume-date">
                 <p class="far fa-dot-circle mini-text"> Février 2020 - Poste actuel<br>
@@ -106,28 +114,37 @@
                 <p class="resume-description">Chef de projet agile</p>
                 <p class="mini-text">Suivi et pilotage de projet développement web, mobile et infrastructure SI. Coach agile d'une équipe de 5 développeurs</p>
               </div>
-              <i class="fas fa-circle">FREELANCE</i>
-                <p class="resume-description">Consultant Digital</p>
-                <p>Formation globale sur la gestion du patrimoine social, financière, technique et l' encadrement pluridisciplinaire
-                d'équipe de proximité et administrative.</p>
-                </div>
+            </div>
+<!---------------------------Expériences professionnelles 2--------------------------->
+            <div class="resume-content">
+              <div class="resume-date">
+                <p class="far fa-circle mini-text"> Novembre 2018 - Poste actuel<br>
+                  Paris</p>
+              </div>
+              <div class="resume-title-content">
+                <p class="resume-description">Consultant Digital Freelance</p>
+                <p>Développement et maintenance de site web WordPress et management de contenus web, social media et print pour TPE, PME et association</p>
+              </div>
+            </div>
           </section>
 
-        <!--Section Recommandations-->
+<!---------------------------Section recommandations--------------------------->
         <section class="main-content">
           <h2><span class="fas fa-pencil-alt items-yellow"></span> RECOMMANDATIONS</h2>
           <div class="flex-reco">
+<!---------------------------Recommandations 1--------------------------->
             <div class="reco">
-              <p class="mini-text-strong">NOUR F.</p>
-              <p>Directeur Dilla immobilier Conseil<br>
-              Téléphone : XX XX XX XX XX<br>
-              <span class="mini-text">Email : nour.f@email.com</span></p>
+              <p class="mini-text-strong-title">NOUR F.</p>
+              <p class="mini-text-strong">Directeur Dilla immobilier Conseil<br>
+              Téléphone : XX XX XX XX XX</p>
+              <p class="mini-text">Email : nour.f@email.com</p>
             </div>
+<!---------------------------Erecommandations 2--------------------------->
             <div class="reco">
-              <p class="mini-text-strong">FABRICE C.</p>
-              <p>Directeur Cornety Chauffage<br>
-              Téléphone : XX XX XX XX XX<br>
-              <span class="mini-text">Email : fabrice.c@email.com</span></p>
+              <p class="mini-text-strong-title">FABRICE C.</p>
+              <p class="mini-text-strong">Directeur Cornety Chauffage<br>
+              Téléphone : XX XX XX XX XX</p>
+              <p class="mini-text">Email : fabrice.c@email.com</p>
             </div>
           </div>
         </section>
@@ -135,7 +152,7 @@
       </div>
     </div>
 
-  <!-- Javascript -->
+<!-----------------------------------------JavaScript--------------------------------------------->
   <script src="https://kit.fontawesome.com/29cc0d5913.js" crossorigin="anonymous" rel="stylesheet"></script>
   </body>
 </html>

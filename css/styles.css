@@ -16,14 +16,12 @@
     7. Responsive
 Auteur : sylvain gemieux alias syl20pro */
 
-/* General */
+/*-------------------------------------1 General---------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap');
 
 
 #bloc-page {
-  width: auto;
-  height: 1080px;
   background-color: #212121;
 }
 
@@ -78,7 +76,7 @@ p{
     font-weight: 500;
 }
 
-/* Header */
+/*----------------------------------------- Header -------------------------------------------*/
 
 header {
     background-color: #ECEFF1;
@@ -137,7 +135,7 @@ header {
     margin: 0 20px;
 }
 
-/* A propos */
+/*--------------------------------------- A propos --------------------------------------------*/
 
 .section-infos {
     display: flex;
@@ -178,7 +176,7 @@ header {
     width: 100%;
 }
 
-/* Formations / Expériences */
+/*----------------------------------- Formations / Expériences --------------------------------*/
 
 .main-content h3 {
     font-size: 2em;    
@@ -215,7 +213,7 @@ header {
     width: 70%;
 }
 
-/* Recommandations */
+/*---------------------------------------- Recommandations ------------------------------------*/
 
 .flex-reco {
     display: flex;
@@ -240,7 +238,7 @@ header {
     margin-right: 25px;
 }
 
-/* Loisirs */
+/*------------------------------------------- Loisirs -----------------------------------------*/
 
 .icons-hobbies .container {
     display: flex;
@@ -253,7 +251,7 @@ header {
     border-radius: 50%;
     padding: 20px 18px;
 }
-/* Responsive */
+/*------------------------------------------ Responsive ----------------------------------------*/
 
 
 /* Fin */
