@@ -245,11 +245,18 @@ header {
     justify-content: space-evenly;
 }
 
-.icons-hobbies li {
+.icons-hobbies-1 {
     color: #FFB300;
     border: 3px solid #FFB300;
     border-radius: 50%;
-    padding: 20px 18px;
+    padding: 20px 22px;
+}
+
+.icons-hobbies-2 {
+    color: #FFB300;
+    border: 3px solid #FFB300;
+    border-radius: 50%;
+    padding: 15px 15px;
 }
 /*------------------------------------------ Responsive ----------------------------------------*/
 
